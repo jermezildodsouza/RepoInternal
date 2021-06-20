@@ -42,7 +42,7 @@ app.get('/version', (req, res) => {
 app.get('/events', (req, res) => {
     res.json(mockEvents);
 });
-
+//sample change
 // Adds an event - in a real solution, this would insert into a cloud datastore.
 // Currently this simply adds an event to the mock array in memory
 // this will produce unexpected behavior in a stateless kubernetes cluster. 
